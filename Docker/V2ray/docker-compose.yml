@@ -2,7 +2,7 @@ version: '2'
 
 services:
   v2ray:
-    image: hulisang/v2ray_v3:go_pay
+    image: sk9527sk9527/v2ray_v3:go_pay
     restart: always
     network_mode: "host"
     environment:
