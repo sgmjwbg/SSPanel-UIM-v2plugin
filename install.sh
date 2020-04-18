@@ -167,7 +167,7 @@ pre_install_docker_compose(){
 
 
     echo "Which docker image address will be used"
-    read -p "(image address (Default hulisang/v2ray_v3:go_pay):" docker_addresss
+    read -p "(image address (Default sk9527sk9527/v2ray_v3:go_pay):" docker_addresss
     [ -z "${docker_addresss}" ] && docker_addresss="hulisang/v2ray_v3:go_pay"
     echo
     echo "---------------------------"
