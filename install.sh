@@ -475,7 +475,7 @@ services:
         max-file: "3"
 
   caddy:
-    image: ephz3nt/v2ray_v3:caddy
+    image: sk9527sk9527/v2ray_v3:caddy
     restart: always
     environment:
       - ACME_AGREE=true
@@ -560,7 +560,7 @@ services:
         max-file: "3"
 
   caddy:
-    image: ephz3nt/v2ray_v3:caddy
+    image: sk9527sk9527/v2ray_v3:caddy
     restart: always
     environment:
       - ACME_AGREE=true
