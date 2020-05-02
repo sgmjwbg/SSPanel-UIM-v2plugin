@@ -18,7 +18,7 @@
 ```
 mkdir v2ray-agent  &&  \
 cd v2ray-agent && \
-curl https://raw.githubusercontent.com/sgmjwbg/SSPanel-UIM-v2plugin/dev/install.sh -o install.sh && \
+curl https://raw.githubusercontent.com/sgm/SSPanel-UIM-v2plugin/dev/install.sh -o install.sh && \
 chmod +x install.sh && \
 bash install.sh
 ```
